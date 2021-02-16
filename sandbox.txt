@@ -1,0 +1,196 @@
+#HEAD
+##topic=topic name
+##tags=comma separated tags
+##lang=en
+##subject=some subject
+##time=estimated time in HH:MM to complete this quiz
+##prereq=any prerequsites
+###
+
+#SECTION
+This is just a section that does not have any qna. This may contain instructions, references, or can be used in
+addition for formative questions like paragraph reading, comprehension, describing picure, referring graphs/charts etc.
+Can contain @image=url or @video=url or @func=jsFunction or @embed=url
+###
+
+#MCQ
+Question text goes here. 
+Can be multiline. can contain @image=url or @video=url or @func=jsFunction or @embed=url
+##
+Answer
+##
+Option X
+Option Y
+Option Z
+###
+
+#TF
+Year 2004 is a leap year. 
+##
+True
+###
+
+#YN
+Is 2004 a leap year? 
+##
+Yes
+###
+
+#MCQ
+Question text goes here. This question has more than one correct answers. User is required to select all matching answers.
+Can be multiline. can contain @image=url or @video=url or @func=jsFunction or @embed=url
+##
+Answer X
+Answer Y
+##
+Option W
+Option Z
+###
+
+#ORDER
+Order below cities from north to south
+##
+Delhi
+Indore
+Mumbai
+Bengaluru
+###
+
+#PLACEMENT
+Place Indore at right place in the below list of ordered cities. 
+##
+Indore
+##
+Delhi
+Indore
+Mumbai
+Bengaluru
+###
+
+#SEQUENCE
+Find missing element in given sequence. 
+##
+11
+##
+2
+3
+5
+7
+?
+13
+###
+
+#SEQUENCE
+Find next element in given sequence. 
+##
+13
+##
+2
+3
+5
+7
+11
+?
+###
+
+#BLANKS
+This is __ apple.
+##
+an
+###
+
+#BLANKS
+This is __ apple. __ sun shines bright.
+##
+an
+The
+###
+
+#CLICKTOFILL
+This is __ apple. __ sun shines bright. __ moon is __ than earth.
+##
+an
+The
+The
+smaller
+##
+a
+an
+The
+smaller
+bigger
+###
+
+
+#MATCH
+Match below states and their capitals.
+##
+Maharashtra
+Karnataka
+Gujrat
+Madhya Pradesh
+##
+Mumbai
+Bengaluru
+Gandhinagar
+Bhopal
+###
+
+#MATCH
+Match below images of shapes to their names.
+##
+@shape=square
+@shape=triangle
+@shape=circle
+@shape=line
+##
+square
+triangle
+circle
+line
+###
+
+#CLASSIFICATION
+Classify below words into appropriate groups
+##
+I
+think
+good
+am
+Ram
+timely
+in
+on
+##
+Noun
+Pronoun
+verb
+adjective
+adverb
+article
+preposition
+preposition
+###
+
+#ONEWORD
+Answer in one word - what is ?
+##
+Answer
+Answer variant 1
+Answer variant 2
+###
+
+#OPEN
+Answer in details.
+##
+Ref answer goes here. However there would be no auto scoring or correction possible. Ref answer is just for evaluation purpose and should not be termed as only answer.
+Answer can be multiline.
+##
+More than one model answers can be provided as well.
+###
+
+
+#MCQ-JS
+@module
+@function
+###
